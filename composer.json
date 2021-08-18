@@ -1,0 +1,16 @@
+{
+    "name": "magebytes/module-base",
+    "description": "Base Module ",
+    "type": "magento2-module",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magebytes\\Base\\": ""
+        }
+    }
+}
