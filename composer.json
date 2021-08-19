@@ -1,16 +1,20 @@
 {
-    "name": "magebytes/module-base",
-    "description": "Base Module ",
+    "name": "bytestechnolab/base",
+    "description": "Bytes Technolab Base Module",
+    "require": {
+        "php": "^7.1.0"
+    },
     "type": "magento2-module",
-    "license": "MIT",
-    "minimum-stability": "stable",
-    "version": "1.0.0",
+    "version": "1.12.1",
+    "license": [
+        "OSL-3.0",
+    ],
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "Magebytes\\Base\\": ""
+            "BytesTechnolab\\Base\\": ""
         }
     }
 }

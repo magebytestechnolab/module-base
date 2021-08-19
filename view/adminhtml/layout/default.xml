@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Bytes Technolab Team
+ * @copyright Copyright (c) 2021 Bytes Technolab (https://www.bytestechnolab.com/)
+ * @package BytesTechnolab_Base
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="BytesTechnolab_Base::css/base.css"/>
+    </head>
+</page>

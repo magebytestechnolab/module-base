@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Bytes Technolab Team
+ * @copyright Copyright (c) 2021 Bytes Technolab (https://www.bytestechnolab.com/)
+ * @package BytesTechnolab_Base
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="BytesTechnolab_Base::base" title="Bytes Technolab" module="BytesTechnolab_Base" translate="title" sortOrder="60" resource="BytesTechnolab_Base::base"/>
+    </menu>
+</config>
