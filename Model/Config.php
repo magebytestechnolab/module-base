@@ -43,7 +43,7 @@ class Config {
 	 *
 	 * @return string
 	 */
-	public function getConfigValue($field) : string {
+	public function getConfigValue($field) : ?string {
 		return $this->scopeConfig->getValue(
 			$field, ScopeInterface::SCOPE_STORE, $this->getStoreId()
 		);
@@ -54,7 +54,7 @@ class Config {
 	 * 
 	 * @return string
 	 */
-	public function getStoreId() : string
+	public function getStoreId() : ?string
 	{
 		return $this->storeManager->getStore()->getStoreId();
 	}
